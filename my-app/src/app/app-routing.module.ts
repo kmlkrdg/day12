@@ -25,12 +25,8 @@ const routes: Routes = [
     path: 'admin', component: AdminLayoutComponent, children: [
 
       { path: 'ziyaretci', component: VisitorComponent }
-
-
     ]
   }
-
-
 ];
 
 @NgModule({

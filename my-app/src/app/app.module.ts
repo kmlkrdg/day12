@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -9,8 +8,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { AdminModule } from './admin/admin.module';
 import { SharedModule } from './shared/shared.module';
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +15,6 @@ import { SharedModule } from './shared/shared.module';
     ContactComponent,
     AboutComponent,
     GalleryComponent,
-  
   ],
   imports: [
     BrowserModule,
